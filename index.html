@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>David Pardo </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont-head">
+        <header>
+            <div class="logo">
+                <a href="#">David Pardo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#about" onclick="seleccionar()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#hv" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="img/hero1.png" alt="">
+            </div>
+            <h1>David Pardo</h1>
+            <h2>Programador de software</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/nicolas-david-pardo-betancourth-237576233/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Davidpardo15"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content-seccion">
+            <h2>Perfil</h2>
+            <p><span>Hola, soy Nicolas Pardo</span>programador de software con experiencia en creación y   desarrollo de aplicativos web para la optimización y solución de problemas, con conocimientos en área de SEO técnico. Poseo habilidades y conocimientos en HTML, CSS, JavaScript, Python, PHP, GoLang, React, SQL y gestión de las aplicaciones Docker, Postman y AWS. Dispuesto al aprendizaje y apoyo a los equipos que pueda llegar a formar.</p>
+        
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nnacimiento</strong> 15-11-1996
+                        </li>
+                        <li>
+                            <strong>Telefono</strong> 3142923503 - 2799600
+                        </li>
+                        <li>
+                            <strong>Email 1</strong> nicolasdavid5778@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Email 2</strong> davidpardo015@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong> Calle 47B sur #21-55 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador</span>    
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="content-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-tree"></i>
+                            <span>PAISAJES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="//drive.google.com/file/d/1sN7bHQDWAcRz-hAX4MSUYuKB8bLhQt_c/view?usp=share_link" target="_blank">
+            <button>
+                Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button></a>
+        </div>  
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content-seccion">
+            <h2>skills</h2>
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Techmical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Techmical Skills</h3>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GoLang</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+        <div class="content-seccion">
+            <h2>curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnico en desarrollo de software</h4>
+                        <span class="casa">Servicio Nacional de aprendizaje (SENA)</span>
+                        <span class="fecha">2020-2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores ullam eum vero labore, fuga aliquam libero reiciendis temporibus corrupti saepe assumenda accusantium facere ea qui doloribus placeat ratione culpa. Perspiciatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Analista de software</h4>
+                        <span class="casa">Pulzo - R360</span>
+                        <span class="fecha">2021-2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores ullam eum vero labore, fuga aliquam libero reiciendis temporibus corrupti saepe assumenda accusantium facere ea qui doloribus placeat ratione culpa. Perspiciatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Junior</h4>
+                        <span class="casa">Andessy</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores ullam eum vero labore, fuga aliquam libero reiciendis temporibus corrupti saepe assumenda accusantium facere ea qui doloribus placeat ratione culpa. Perspiciatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="cotent-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/bg-blog-card.jpg" alt="">
+                    <div class="overlay">
+                        <div class="title-content">
+                            <h3>Proximamente</h3>
+                            <hr />
+                            <div class="intro">
+                                <!--Subtitulo de proyecto--> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/bg-blog-card.jpg" alt="">
+                    <div class="overlay">
+                        <div class="title-content">
+                            <h3>Proximamente</h3>
+                            <hr />
+                            <div class="intro">
+                                <!--Subtitulo de proyecto--> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/bg-blog-card.jpg" alt="">
+                    <div class="overlay">
+                        <div class="title-content">
+                            <h3>Proximamente</h3>
+                            <hr />
+                            <div class="intro">
+                               <!--Subtitulo de proyecto--> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/nicolas-david-pardo-betancourth-237576233/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Davidpardo15"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <h5>Nicolas David Pardo Betancourth 2022 - 2023</h5>
+    </footer>   
+    
+    <script src="scripts.js"> </script>
+</body>
+</html>
